@@ -3,6 +3,9 @@
 ## precondition
 an empty PostgreSQL database named "library" deployed to localhost:5432
 
+## install requirements:
+    pip install -r requirements.txt
+
 ## init db
     python manage.py init
     
