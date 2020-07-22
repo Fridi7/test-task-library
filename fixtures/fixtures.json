@@ -1,0 +1,185 @@
+[
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$UKJDgiWJJkUd$mRXHGYGdcGRuOvKZyUTSjA6fNmT5/cidrzRfRNMIbJ4=",
+    "last_login": "2020-07-22T04:12:49.725Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-07-22T04:12:42.014Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "library_app.writer",
+  "pk": 1,
+  "fields": {
+    "name": "Сапковский, Анджей"
+  }
+},
+{
+  "model": "library_app.writer",
+  "pk": 2,
+  "fields": {
+    "name": "Роулинг, Джоан"
+  }
+},
+{
+  "model": "library_app.writer",
+  "pk": 3,
+  "fields": {
+    "name": "Толстой, Лев"
+  }
+},
+{
+  "model": "library_app.book",
+  "pk": 1,
+  "fields": {
+    "name": "Последнее желание",
+    "author": 1
+  }
+},
+{
+  "model": "library_app.book",
+  "pk": 2,
+  "fields": {
+    "name": "Меч Предназначения",
+    "author": 1
+  }
+},
+{
+  "model": "library_app.book",
+  "pk": 3,
+  "fields": {
+    "name": "Кровь эльфов",
+    "author": 1
+  }
+},
+{
+  "model": "library_app.book",
+  "pk": 4,
+  "fields": {
+    "name": "Час Презрения",
+    "author": 1
+  }
+},
+{
+  "model": "library_app.book",
+  "pk": 5,
+  "fields": {
+    "name": "Крещение огнём",
+    "author": 1
+  }
+},
+{
+  "model": "library_app.book",
+  "pk": 6,
+  "fields": {
+    "name": "Башня Ласточки",
+    "author": 1
+  }
+},
+{
+  "model": "library_app.book",
+  "pk": 7,
+  "fields": {
+    "name": "Владычица Озера",
+    "author": 1
+  }
+},
+{
+  "model": "library_app.book",
+  "pk": 8,
+  "fields": {
+    "name": "Сезон гроз",
+    "author": 1
+  }
+},
+{
+  "model": "library_app.book",
+  "pk": 9,
+  "fields": {
+    "name": "Гарри Поттер и философский камень",
+    "author": 2
+  }
+},
+{
+  "model": "library_app.book",
+  "pk": 10,
+  "fields": {
+    "name": "Гарри Поттер и Тайная комната",
+    "author": 2
+  }
+},
+{
+  "model": "library_app.book",
+  "pk": 11,
+  "fields": {
+    "name": "Гарри Поттер и узник Азкабана",
+    "author": 2
+  }
+},
+{
+  "model": "library_app.book",
+  "pk": 12,
+  "fields": {
+    "name": "Гарри Поттер и Кубок огня",
+    "author": 2
+  }
+},
+{
+  "model": "library_app.book",
+  "pk": 13,
+  "fields": {
+    "name": "Гарри Поттер и Орден Феникса",
+    "author": 2
+  }
+},
+{
+  "model": "library_app.book",
+  "pk": 14,
+  "fields": {
+    "name": "Гарри Поттер и Принц-полукровка",
+    "author": 2
+  }
+},
+{
+  "model": "library_app.book",
+  "pk": 15,
+  "fields": {
+    "name": "Гарри Поттер и Дары Смерти",
+    "author": 2
+  }
+},
+{
+  "model": "library_app.book",
+  "pk": 16,
+  "fields": {
+    "name": "Война и мир",
+    "author": 3
+  }
+},
+{
+  "model": "library_app.book",
+  "pk": 17,
+  "fields": {
+    "name": "Воскресение",
+    "author": 3
+  }
+},
+{
+  "model": "library_app.book",
+  "pk": 18,
+  "fields": {
+    "name": "Детство",
+    "author": 3
+  }
+}
+]
